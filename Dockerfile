@@ -17,7 +17,7 @@ RUN set -x \
 
 ENV APP_HOME    /opt/piwik
 ENV APP_DATA    /var/opt/piwik
-ENV APP_VERSION 2.12.1
+ENV APP_VERSION 2.13.1
 ENV APP_BASEURL http://builds.piwik.org
 ENV APP_PKGNAME piwik-${APP_VERSION}.tar.gz
 ENV APP_URL     ${APP_BASEURL}/${APP_PKGNAME}
