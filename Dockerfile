@@ -3,7 +3,13 @@ MAINTAINER Jonathon Leight <jonathon.leight@jleight.com>
 
 RUN set -x \
   && apt-get update \
-  && apt-get install -y php5-mysql php5-curl php5-gd php5-cli php5-geoip \
+  && apt-get install -y \
+    php5-cli \
+    php5-curl \
+    php5-gd \
+    php5-geoip \
+    php5-ldap \
+    php5-mysql \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
     /tmp/* \
